@@ -1,0 +1,25 @@
+{
+    "manifest_version": 3,
+    "name": "Google Meet Status Checker",
+    "version": "1.0",
+    "description": "Check if the user is in a Google Meet call.",
+    "permissions": [
+        "scripting",
+        "webNavigation",
+        "activeTab",
+        "alarms"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://meet.google.com/*"],
+            "js": ["content.js"]
+        }
+    ],
+    "host_permissions": [
+        "http://*/*",
+        "https://*/*"
+    ]
+}
