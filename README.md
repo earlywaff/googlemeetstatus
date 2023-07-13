@@ -30,6 +30,10 @@ This project is a Chrome browser extension that checks the activity status of a 
 
 If you would like to contribute to the project, please see the CONTRIBUTING.md file for more information on the contribution process.
 
+
 ## License
 
 The project is licensed under the MIT License. See the LICENSE file for details.
+
+
+https://boosty.to/earlywaff/donate
